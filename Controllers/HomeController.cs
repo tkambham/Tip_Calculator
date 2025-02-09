@@ -17,10 +17,20 @@ namespace Calculator_Project.Conrollers
         [HttpPost]
         public IActionResult Index(TipCalculatorModel model)
         {
-            ViewBag.Tip15 = model.CalculatePercent15();
-            ViewBag.Tip20 = model.CalculatePercent20();
-            ViewBag.Tip25 = model.CalculatePercent25();
+            
+            if(ModelState.IsValid)
+            {
+                ViewBag.Tip15 = model.CalculatePercent15();
+                ViewBag.Tip20 = model.CalculatePercent20();
+                ViewBag.Tip25 = model.CalculatePercent25();
+            }
+            else
+            {
+                ViewBag.Tip15 = 0;
+                ViewBag.Tip20 = 0;
+                ViewBag.Tip25 = 0;
 
+            }
             return View(model);
         }
     }

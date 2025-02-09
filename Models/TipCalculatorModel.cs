@@ -1,19 +1,27 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Calculator_Project.Models
 {
     public class TipCalculatorModel
     {
-        public decimal BillAmount { get; set; }
-        public decimal CalculatePercent15() 
+        [Required(ErrorMessage = "Please enter a bill amount.")]
+        [Range(0.01, 1000000, ErrorMessage = "Please enter a valid bill amount.")]    
+        public decimal? BillAmount { get; set; }
+
+        public decimal? CalculatePercent15() 
         {
-            return BillAmount * 0.15m;
+            decimal? tip = BillAmount * 0.15m;
+            return tip;
         }
-        public decimal CalculatePercent20() 
+        public decimal? CalculatePercent20() 
         {
-            return BillAmount * 0.10m;
+            decimal? tip = BillAmount * 0.20m;
+            return tip;
         }
-        public decimal CalculatePercent25() 
+        public decimal? CalculatePercent25() 
         {
-            return BillAmount * 0.25m;
+            decimal? tip = BillAmount * 0.25m;
+            return tip;
         }
     }
 }
