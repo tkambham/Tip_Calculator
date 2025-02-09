@@ -1,38 +1,27 @@
 @model TipCalculatorModel
 @{
-    Layout = null;
+    ViewData["Title"] = "Tip Calculator";
+    Layout = "_LayoutCalculator";
 }
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width" />
-        <title>Tip Calculator</title>
-        <style>
-
-        </style>
-    </head>
-    <body>
-        <h1>Tip Calculator</h1>
-        <form asp-action="Index" method="post">
-            <div>
-                <label asp-for="BillAmount">BillAmount:</label>
-                <input asp-for="BillAmount" />
-            </div>
-            <div>
-                <label>15% tip:</label>
-                <input value="@ViewBag.Tip15.ToString("C2")" readonly />
-            </div>
-            <div>
-                <label>20% tip:</label>
-                <input value="@ViewBag.Tip20.ToString("C2")" readonly />
-            </div>
-            <div>
-                <label>25% tip:</label>
-                <input value="@ViewBag.Tip25.ToString("C2")" readonly />
-            </div>
-            <button type="submit">Calculate</button>
-            <a asp-action="Index">Clear</a>
-        </form>
-    </body>
-</html>
+<h1>Tip Calculator</h1>
+<form asp-action="Index" method="post">
+    <div>
+        <label asp-for="BillAmount">BillAmount:</label>
+        <input asp-for="BillAmount" />
+    </div>
+    <div>
+        <label>15% tip:</label>
+        <input value="@ViewBag.Tip15.ToString("C2")" readonly />
+    </div>
+    <div>
+        <label>20% tip:</label>
+        <input value="@ViewBag.Tip20.ToString("C2")" readonly />
+    </div>
+    <div>
+        <label>25% tip:</label>
+        <input value="@ViewBag.Tip25.ToString("C2")" readonly />
+    </div>
+    <button type="submit">Calculate</button>
+    <a asp-action="Index">Clear</a>
+</form>

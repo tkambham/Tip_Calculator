@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DRVWuoSWTmKqp25LT75mgsnifFtodTo23O5uixyq4v0=",
+  "Hash": "Uyb9A0iFMSDym/fC+wCHGMaDEXL+Yax4TxHyZHOTiMc=",
   "Source": "Calculator_Project",
   "BasePath": "_content/Calculator_Project",
   "Mode": "Default",
@@ -458,12 +458,12 @@
       "OriginalItemSpec": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-b9sayid5wm.gz",
+      "Identity": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-lzeolbjbtt.gz",
       "SourceId": "Calculator_Project",
       "SourceType": "Discovered",
       "ContentRoot": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Calculator_Project",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=lzeolbjbtt}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -472,8 +472,8 @@
       "RelatedAsset": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pw5l7j5n1s",
-      "Integrity": "KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=",
+      "Fingerprint": "jppxhwfa1a",
+      "Integrity": "mV52F0IxqZbYKQOcK169cZQ7ZJuzhjcIZfZCeI0jSHk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/wwwroot/css/site.css"
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "lzeolbjbtt",
+      "Integrity": "H20zf1wR2kLEqi8YWtyTqUBNp1mQoimDHbKAlzn38d0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -2644,13 +2644,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-b9sayid5wm.gz",
+      "Route": "css/site.css",
+      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-lzeolbjbtt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.005681818182"
         }
       ],
       "ResponseHeaders": [
@@ -2660,19 +2660,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "175"
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"mV52F0IxqZbYKQOcK169cZQ7ZJuzhjcIZfZCeI0jSHk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 21:42:35 GMT"
+          "Value": "Sun, 09 Feb 2025 22:39:29 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2688,26 +2688,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"H20zf1wR2kLEqi8YWtyTqUBNp1mQoimDHbKAlzn38d0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-H20zf1wR2kLEqi8YWtyTqUBNp1mQoimDHbKAlzn38d0="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.css",
       "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2717,7 +2709,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "232"
         },
         {
           "Name": "Content-Type",
@@ -2725,11 +2717,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"H20zf1wR2kLEqi8YWtyTqUBNp1mQoimDHbKAlzn38d0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 21:42:35 GMT"
+          "Value": "Sun, 09 Feb 2025 22:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H20zf1wR2kLEqi8YWtyTqUBNp1mQoimDHbKAlzn38d0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-lzeolbjbtt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mV52F0IxqZbYKQOcK169cZQ7ZJuzhjcIZfZCeI0jSHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 22:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mV52F0IxqZbYKQOcK169cZQ7ZJuzhjcIZfZCeI0jSHk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.lzeolbjbtt.css",
+      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-lzeolbjbtt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005681818182"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mV52F0IxqZbYKQOcK169cZQ7ZJuzhjcIZfZCeI0jSHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 22:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"H20zf1wR2kLEqi8YWtyTqUBNp1mQoimDHbKAlzn38d0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lzeolbjbtt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H20zf1wR2kLEqi8YWtyTqUBNp1mQoimDHbKAlzn38d0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.lzeolbjbtt.css",
+      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H20zf1wR2kLEqi8YWtyTqUBNp1mQoimDHbKAlzn38d0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 22:39:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2739,7 +2876,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "lzeolbjbtt"
         },
         {
           "Name": "label",
@@ -2747,13 +2884,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-H20zf1wR2kLEqi8YWtyTqUBNp1mQoimDHbKAlzn38d0="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-b9sayid5wm.gz",
+      "Route": "css/site.lzeolbjbtt.css.gz",
+      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-lzeolbjbtt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2762,7 +2899,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "175"
         },
         {
           "Name": "Content-Type",
@@ -2770,11 +2907,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"mV52F0IxqZbYKQOcK169cZQ7ZJuzhjcIZfZCeI0jSHk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 21:42:35 GMT"
+          "Value": "Sun, 09 Feb 2025 22:39:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2792,7 +2929,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "lzeolbjbtt"
         },
         {
           "Name": "label",
@@ -2800,144 +2937,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003134796238"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 21:42:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/wwwroot/css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 21:42:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 21:42:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
+          "Value": "sha256-mV52F0IxqZbYKQOcK169cZQ7ZJuzhjcIZfZCeI0jSHk="
         }
       ]
     },

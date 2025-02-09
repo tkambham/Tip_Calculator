@@ -16,7 +16,6 @@
 /Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/Calculator_Project.RazorAssemblyInfo.cs
 /Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/Calculator_Project.sourcelink.json
 /Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/scopedcss/bundle/Calculator_Project.styles.css
-/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-b9sayid5wm.gz
 /Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/82koj9hs1d-61n19gt1b8.gz
 /Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/kk9mzctvml-xtxxf3hu2r.gz
 /Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/3w5bxpb8ts-bqjiyaj88i.gz
@@ -92,3 +91,4 @@
 /Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/Calculator_Project.pdb
 /Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/Calculator_Project.genruntimeconfig.cache
 /Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/ref/Calculator_Project.dll
+/Volumes/TriloksSSD/EWB Project1/Calculator_Project/obj/Debug/net9.0/compressed/aq4powpxoq-lzeolbjbtt.gz
